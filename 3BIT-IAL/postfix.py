@@ -1,10 +1,14 @@
+#
+# @author Peter Tisovcik <xtisov00@fit.vutbr.cz
+# @description Program vygeneruje postfix format pre vyrazy
+#
 class Stack:
 	def __init__(self):
 		self.items = []
-	
+
 	def isEmpty(self):
 		return self.items == []
-	
+
 	def push(self, item):
 		self.items.insert(0,item)
 
@@ -48,9 +52,7 @@ def infixToPostfix(infixexpr):
         postfixList.append(opStack.pop())
     return " ".join(postfixList)
 
+#ukazky zapisu
 print(infixToPostfix("A * B + C * D"))
 print(infixToPostfix("( A + B ) * C - ( D - E ) * ( F + G )"))
 print(infixToPostfix("( ( A + B / C ) * ( D * E - F ) + ( G / H + I * J ) ) / K"))
-
-
-
