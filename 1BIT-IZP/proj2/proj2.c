@@ -1,11 +1,7 @@
-/*************************************************
- * Subor: proj2.c                                *
- * Datum vytvorenia: 20/11/2014                  *
- * Datum poslednej upravy: 22:28 - 30/11/2014    *
- * Autor: Peter Tisovcik                         *
- * Email: xtisov00@stud.fit.vutbr.cz             *
- * Projekt: Projekt 2 - Iteracne vypocty         *
- ************************************************/
+ /**
+  * @author Peter Tisovcik <xtisov00@fit.vutbr.cz
+  * @description Projekt 2 - Iteracne vypocty
+  */
 
 #include <stdio.h>
 #include <stdlib.h>

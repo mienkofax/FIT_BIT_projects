@@ -1,0 +1,105 @@
+\documentclass[pdf]{beamer}
+\mode<presentation>{
+    \usetheme{CambridgeUS}
+    \setbeamercovered{transparent}
+}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{graphics}
+\usepackage{picture}
+\newcommand{\myuv}[1]{\quotedblbase #1\textquotedblleft}
+
+\title{\LaTeX}
+\subtitle{Úvod do \LaTeX u}
+\author{Peter Tisovčík }
+\institute[FIT VUT]{Fakulta informačních technologií\\Vysoké učení technické v Brně}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+%%%%%%%%%%%% 2.slide
+\begin{frame}
+\frametitle{Obsah}
+\begin{itemize}
+\item{\TeX\hspace{4 pt}alebo \LaTeX}
+\item{Výhody \TeX u}
+\item{Nevýhody \TeX u}
+\item{Výhody \LaTeX u}
+\item{Nevýhody \LaTeX u}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%% 3.slide
+\begin{frame}
+\frametitle{\TeX\hspace{4 pt}alebo \LaTeX}
+\begin{itemize}
+\item{\textcolor{blue}{\TeX - }Program pre sadzbu dokumentov, ktorý vytvoril profesor Donald Knuth a kompletne ho zdokumentoval. Vyniká vysokou kvalitou matematickej sadzby, a preto je používaný hlavne v akademickom prostredí.}
+\item{\textcolor{blue}{\LaTeX - }Balíček makier pre \TeX\hspace{4 pt}(môžeme ho brať ako knižnicu príkazov), rozšírenie, ktoré zjednodušuje prácu.}
+\setbeamertemplate{itemize items}[triangle]
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%% 4.slide
+\begin{frame}
+\frametitle{Výhody \TeX u}
+\begin{itemize}
+\item{\textcolor{blue}{Kvalita - }sadzba na vysokej úrovni, hlavne pre matematické texty a rešpektovanie typografických pravidiel}
+\item{\textcolor{blue}{Stabilita - }rôzne verzie zachovávajú kompatibilitu medzi sebou}
+\item{\textcolor{blue}{Nezávislosť na platforme - }program je možné používať na rôznych počítačových systémoch (Windows, Max OS, Linux), výstupom je súbor s príponou .dvi}
+\item{\textcolor{blue}{Programovateľnosť - }\TeX \hspace{4 pt}obsahuje niekoľko stoviek základných príkazov, pomocou, ktorých sa dajú vytvárať ďalšie tzv. makrá}
+\item{\textcolor{blue}{Dokumentácia - }existuje mnoho publikácií, ktoré sa zaoberajú problematikou sadzby v \TeX u a jednotlivých makrách}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%% 5.slide
+\begin{frame}
+\frametitle{Nevýhody \TeX u}
+\begin{itemize}
+\item{\textcolor{blue}{Zložitosť - }\TeX\hspace{4 pt}je značne náročný, preto časom vznikali obsiahle balíčky, tzv. formáty, ktoré zjednodušujú sadzbu dokumentov. Základným formátom je plain\TeX a ďalšie formáty z neho čerpajú (\LaTeX , \AmS\TeX).}
+\item{\textcolor{blue}{Užívateľské rozhranie - }\TeX\hspace{4 pt}nepatrí medzi programy s grafickou nadstraubou, je síce možné nájsť grafické rozšírenia ale neexistujú pre všetky balíčky a makrá, taktiež nedokážu využiť potenciál \TeX u naplno.}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%%  6.slide
+\begin{frame}
+\frametitle{Výhody \LaTeX u}
+\begin{itemize}
+\item{\textcolor{blue}{Jednoduché používanie - }umožňuje sa sústrediť na vytváraný obsah dokumentu/článku a úprava sa deje z časti \myuv{automaticky}}
+\item{\textcolor{blue}{Zautomatizovanie úkonov - }automatické generovanie obsahu, používanie písiem, číslovanie strán, častí v dokumente, rovníc, obrázkov, tabuliek, poznámok pod čiarou, citácií}
+\item{\textcolor{blue}{Podpora programov - }podporara na vytváranie registrov, zoznamu citácií, kreslenie obrázkov }
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%% 7.slide
+\begin{frame}
+\frametitle{Nevýhody \LaTeX u}
+\begin{itemize}
+\item{\textcolor{blue}{Menšia pružnosť oproti \LaTeX u}}
+\item{\textcolor{blue}{Väčšia veľkosť súboru}}
+\item{\textcolor{blue}{Možná zmena latechových súborov pri nových verziách \LaTeX u}}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%% 8.slide
+\begin{frame}
+\frametitle{Použité zdroje}
+\begin{itemize}
+\item{\textcolor{blue}{TeX – Wikipedie}\\ \emph{http://cs.wikipedia.org/wiki/TeX}}
+\item{\textcolor{blue}{Podpora sazby sázecím systémem TeX na MU}\\ \emph{http://webserver.ics.muni.cz/bulletin/articles/429.html}}
+\item{\textcolor{blue}{TeX vs. LaTeX}\\ \emph{https://mks.mff.cuni.cz/info/tex/texlatex.php}}
+\end{itemize}
+\end{frame}
+
+%%%%%%%%%%%% 9.slide
+\begin{frame}
+\begin{center}
+\Huge{Ďakujem za pozornosť}
+\end{center}
+\end{frame}
+
+\end{document} 
